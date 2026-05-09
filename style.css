@@ -1,0 +1,29 @@
+/* style.css */
+
+/* Change the main background */
+[data-testid="stAppViewContainer"] {
+    background-color: #6f773f;
+}
+
+/* Style the sidebar */
+[data-testid="stSidebar"] {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Style the title */
+h1 {
+    color: #d63384;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Style buttons */
+.stButton>button {
+    background-color: #d63384;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+
